@@ -1,0 +1,7 @@
+#### To change encoding from ascii to utf-8####
+import sys # importing
+sys.getdefaultencoding() # shows default encodng scheme, gives 'ascii' by default
+reload(sys) # reloading sys to enable changes
+sys.setdefaultencoding('utf-8')  # to change from ascii to utf-8 encoding scheme
+sys.getdefaultencoding()  # shows new encoding i.e. utf-8
+####
